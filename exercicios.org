@@ -1,0 +1,16 @@
+#+Title: Listas de Exercícios
+
+
+* Lista 1 
+
+Exercicios 1-5 do [[https://leanprover.github.io/logic_and_proof/natural_deduction_for_propositional_logic.html][capítulo 3]] entregues pessoalmente.
+
+* Lista 2
+
+1. Exercícios do [[https://leanprover.github.io/logic_and_proof/propositional_logic_in_lean.html][capítulo 4]].
+2. Completar o problema dos [[vestidos.lean]].
+
+A entrega deve ser feita por email, diretamente para mim, não pela
+lista, até as 11h de terça-feira.
+
+
