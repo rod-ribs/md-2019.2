@@ -1,5 +1,5 @@
 #+Title: Listas de Exercícios
-
+#+Author: Alexandre Rademaker
 
 * Lista 1 
 
@@ -7,10 +7,19 @@ Exercicios 1-5 do [[https://leanprover.github.io/logic_and_proof/natural_deducti
 
 * Lista 2
 
-1. Exercícios do [[https://leanprover.github.io/logic_and_proof/propositional_logic_in_lean.html][capítulo 4]].
+1. Exercícios do [[https://leanprover.github.io/logic_and_proof/propositional_logic_in_lean.html][capítulo 4]]. Entrega deve ser um único arquivo lean
+   chamado 'capitulo-04-FulanoSilva.lean' onde `Fulano' é o primeiro
+   nome e 'Silva' é o último nome. Sem acentos.
 2. Completar o problema dos [[vestidos.lean]].
 
 A entrega deve ser feita por email, diretamente para mim, não pela
-lista, até as 11h de terça-feira.
+lista, até as 11h de terça-feira. No assunto da mensagem, colocar: 
+
+   MD 2019.2: lista 2
+
+O email deve conter os dois arquivos lean anexados:
+
+- vestidos-FulanoSilva.lean
+- capitulo-04-FulanoSilva.lean
 
 
