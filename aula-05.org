@@ -1,0 +1,8 @@
+#+Title: lógica proposicional no Lean
+#+Author: Alexandre Rademaker
+
+* Exemplos
+
+- https://en.wikipedia.org/wiki/Hamiltonian_path
+- Princípio da casa dos pombos
+

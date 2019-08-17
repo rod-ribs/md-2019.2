@@ -1,0 +1,7 @@
+#+Title: motivação e apresentação do curso
+#+Author: Alexandre Rademaker
+
+- Por que estudar lógica
+- Formalização de provas
+- Aplicações em CS e Matemática
+- ATPs versus ITPs

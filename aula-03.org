@@ -1,0 +1,33 @@
+#+Title: exercícios
+#+Author: Alexandre Rademaker
+
+Solução exercícios [[https://leanprover.github.io/logic_and_proof/natural_deduction_for_propositional_logic.html][capítulo 3]].
+
+* Resolução
+
+prova ATP
+
+#+begin_src lisp 
+(ql:quickload :snark)
+(in-package :snark-user)
+
+(initialize)
+(use-resolution t)
+(prove '(implies (not (and A B)) (implies A (not B))))
+#+end_src
+
+#+RESULTS:
+: :PROOF-FOUND
+
+* Outras ferramentas
+
+SMT/SAT solvers:
+
+- https://rise4fun.com/z3/ and https://github.com/Z3Prover/z3
+- https://cvc4.github.io
+
+ATP/FOL Provers:
+
+- https://vprover.github.io/
+- http://www.eprover.org
+

@@ -1,0 +1,22 @@
+#+Title: lógica proposicional
+#+Author: Alexandre Rademaker
+
+
+* Sintaxe da Lógica Proposicional
+
+ Simbolos logicos e não lógicos. 
+
+ Gramática dada pela definição 'recursiva' de fórmula.
+ 
+* Formalização
+
+ Da linguagem natural para LP.
+
+* Sistema Dedutivo
+
+- Dedução Natural para LP
+
+* Semântica 
+
+- tabela verdade
+

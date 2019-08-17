@@ -1,0 +1,6 @@
+#+Title: lógica proposicional no Lean
+#+Author: Alexandre Rademaker
+
+- revisão
+- lean prover e LP no Lean.
+
