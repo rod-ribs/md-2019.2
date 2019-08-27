@@ -22,4 +22,6 @@ O email deve conter os dois arquivos lean anexados:
 - vestidos-FulanoSilva.lean
 - capitulo-04-FulanoSilva.lean
 
+* Lista 3
 
+Para <2019-09-03 Tue>, prova em Lean do PHP3.

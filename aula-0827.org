@@ -1,8 +1,6 @@
 #+Title: lógica proposicional no Lean
 #+Author: Alexandre Rademaker
 
-* Tópicos
-
 - revisão de resolução. Vejam lecture 7 de
   http://www.csd.uwo.ca/~moreno/cs2209_moreno/index.html. Revisamos
   resolução, método de prova implementando no
@@ -15,6 +13,3 @@
   (https://en.wikipedia.org/wiki/Sequent_calculus) e do
   site/ferramenta http://logitext.mit.edu/main.
 
-* Exercício 
-
-Para <2019-09-03 Tue>, prova em Lean do PHP3.
