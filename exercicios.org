@@ -3,9 +3,12 @@
 
 * Lista 1 
 
-Exercicios 1-5 do [[https://leanprover.github.io/logic_and_proof/natural_deduction_for_propositional_logic.html][capítulo 3]] entregues pessoalmente.
+Para <2019-08-13 Tue>. Exercicios 1-5 do [[https://leanprover.github.io/logic_and_proof/natural_deduction_for_propositional_logic.html][capítulo 3]] entregues
+pessoalmente.
 
 * Lista 2
+
+Para <2019-08-20 Tue>
 
 1. Exercícios do [[https://leanprover.github.io/logic_and_proof/propositional_logic_in_lean.html][capítulo 4]]. Entrega deve ser um único arquivo lean
    chamado 'capitulo-04-FulanoSilva.lean' onde `Fulano' é o primeiro
@@ -24,4 +27,6 @@ O email deve conter os dois arquivos lean anexados:
 
 * Lista 3
 
-Para <2019-09-03 Tue>, prova em Lean do PHP3.
+Para <2019-09-03 Tue>
+
+1. Prova em Lean do PHP3.
