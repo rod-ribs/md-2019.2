@@ -1,0 +1,147 @@
+\documentclass{article}
+
+\usepackage{bussproofs}
+\usepackage{url}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+
+\title{Problema dos Vestidos}
+\author{Alexandre Rademaker}
+\maketitle
+
+\section{Problema}
+
+Três irmãs – Ana, Maria e Cláudia – foram a uma festa com vestidos de
+cores diferentes. Uma vestia azul, a outra branco e a Terceira
+preto. Chegando à festa, o anfitrião perguntou quem era cada uma
+delas. As respostas foram:
+
+\begin{itemize}
+\item A de azul respondeu: “Ana é a que está de branco”
+\item A de branco falou: “Eu sou Maria”
+\item A de preto disse:  “Cláudia é quem está de branco”
+\end{itemize}
+
+O anfitrião foi capaz de identificar corretamente quem era cada pessoa
+considerando que:
+
+\begin{itemize}
+\item Ana sempre diz a verdade
+\item Maria às vezes diz a verdade
+\item Cláudia nunca diz a verdade
+\end{itemize}
+
+Pensando um pouco sobre o problema, pode-se concluir que a Ana estava
+com o vestido preto, a Cláudia com o branco e a Maria com o azul.
+Formalizar o problema e usar algum método dedutivo para construir um
+argumento formal a favor da conclusão.  Dica: A tabela verdade teria
+512 linhas!
+
+
+\newpage
+\section{Solução em Dedução Natural}
+
+A prova $\Pi_1$ é a seguinte:
+
+\begin{prooftree}\small
+  \AxiomC{$(AA \lor AB) \lor AP$}
+
+  \AxiomC{$AP$}
+
+  \AxiomC{$AA \lor AB$}
+
+  \AxiomC{$AA$}
+  \AxiomC{$AA$}
+  \AxiomC{$AA \to AB$}
+  \BinaryInfC{$AB$}
+  \AxiomC{$\neg AB$}
+  \BinaryInfC{$\bot$}
+  \UnaryInfC{$\neg AA$}
+  \BinaryInfC{$\bot$}
+  \UnaryInfC{$AP$}
+
+  \AxiomC{$AB$}
+  \AxiomC{$\neg AB$}
+  \BinaryInfC{$\bot$}
+  \UnaryInfC{$AP$}
+
+  \TrinaryInfC{$AP$}
+  \TrinaryInfC{$AP$}
+\end{prooftree}
+
+A prova $\Pi_2$ é a seguinte:
+
+\begin{prooftree}
+  \AxiomC{$\Pi_1$}
+  \UnaryInfC{$AB$}
+  \AxiomC{$AP \to CB$}
+  \BinaryInfC{$CB$}
+\end{prooftree}
+
+
+A prova $\Pi_3$ é a seguinte:
+
+\begin{prooftree}\scriptsize 
+  \AxiomC{$MA \lor (MP \lor MB)$}
+
+  \AxiomC{$MA$}
+
+  % open 1
+  \AxiomC{$MP \lor MB$}
+
+  \AxiomC{$\Pi_1$}
+  \UnaryInfC{$AP$}
+  \AxiomC{$MP$}
+  \AxiomC{$MP \to \neg CP \land \neg AP$}
+  \BinaryInfC{$\neg CP \land \neg AP$}
+  \UnaryInfC{$\neg AP$}
+  \BinaryInfC{$\bot$}
+  \UnaryInfC{$MA$}
+
+  \AxiomC{$\Pi_2$}
+  \UnaryInfC{$CB$}
+  \AxiomC{$MB$}
+  \AxiomC{$MB \to \neg CB \land \neg AB$}
+  \BinaryInfC{$\neg CB \land \neg AB$}
+  \UnaryInfC{$\neg CB$}
+  \BinaryInfC{$\bot$}
+  \UnaryInfC{$MA$}
+  \TrinaryInfC{$MA$}
+  % close 1
+
+  \TrinaryInfC{$MA$}
+\end{prooftree}
+
+
+A resposta final é:
+
+\begin{prooftree}
+  \AxiomC{$\Pi_1$}
+  \UnaryInfC{$AP$}
+  \AxiomC{$\Pi_2$}
+  \UnaryInfC{$CB$}
+  \BinaryInfC{$AP \land CB$}
+  
+  \AxiomC{$\Pi_3$}
+  \UnaryInfC{$MA$}
+  
+  \BinaryInfC{$(AP \land CB) \land MA$}
+\end{prooftree}
+
+
+\section{Referências}
+
+Problema apresentado no livro `Teoria das Categorias para Ciência da
+Computação' de Paulo Blauth Menezes e Edward Hermann Haeusler. Veja
+\url{http://www.logicmatters.net/latex-for-logicians/} para construção
+das provas.
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

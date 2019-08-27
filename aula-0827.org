@@ -1,0 +1,16 @@
+#+Title: lógica proposicional no Lean
+#+Author: Alexandre Rademaker
+
+
+- revisão de resolução. Vejam lecture 7 de
+  http://www.csd.uwo.ca/~moreno/cs2209_moreno/index.html. Revisamos
+  resolução, método de prova implementando no
+  https://en.wikipedia.org/wiki/SNARK_(theorem_prover) que usamos em
+  sala.
+
+- Princípio da casa dos pombos (file:pombos.pdf)
+
+- Para provar o PHP3, falamos do cálculo de sequentes
+  (https://en.wikipedia.org/wiki/Sequent_calculus) e do
+  site/ferramenta http://logitext.mit.edu/main.
+

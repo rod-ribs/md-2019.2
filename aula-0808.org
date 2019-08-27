@@ -1,7 +1,6 @@
 #+Title: lógica proposicional
 #+Author: Alexandre Rademaker
 
-
 * Sintaxe da Lógica Proposicional
 
  Simbolos logicos e não lógicos. 

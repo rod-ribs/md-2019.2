@@ -1,11 +1,9 @@
 #+Title: exercícios
 #+Author: Alexandre Rademaker
 
-Solução exercícios [[https://leanprover.github.io/logic_and_proof/natural_deduction_for_propositional_logic.html][capítulo 3]].
+- Solução exercícios [[https://leanprover.github.io/logic_and_proof/natural_deduction_for_propositional_logic.html][capítulo 3]].
 
-* Resolução
-
-prova ATP
+- Resolução e provas usando ATP
 
 #+begin_src lisp 
 (ql:quickload :snark)

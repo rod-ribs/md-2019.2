@@ -1,0 +1,9 @@
+#+Title: lógica proposicional no Lean
+#+Author: Alexandre Rademaker
+
+- Resolução dos exercícios e discussão da implementação no Lean do
+  problema dos vestidos.
+
+- Introdução ao Princípio da casa dos pombos.
+
+
