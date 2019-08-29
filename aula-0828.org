@@ -1,0 +1,10 @@
+#+Title: lógica proposicional no Lean
+#+Author: Alexandre Rademaker
+
+
+- falamos sobre a justificativa para a regra da negação do calculo de
+  sequentes.
+
+- Discutimos os principais tópicos do [[https://leanprover.github.io/logic_and_proof/classical_reasoning.html][capítulo 5]] sobre lógica classica
+  em dedução natural.
+

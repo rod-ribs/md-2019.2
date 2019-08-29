@@ -7,6 +7,14 @@
   https://en.wikipedia.org/wiki/SNARK_(theorem_prover) que usamos em
   sala.
 
+- durante a apresentação dos slides do item anterior, falamos
+  brevemente sobre os problemas P e NP, sendo os primeiros com
+  computação em tempo polinomial e os segundos com checagem em tempo
+  polinomial. Também conversamos brevemente sobre máquinas de turing
+  como modelo de computação e redução de problemas em problemas NP
+  como forma de identificação de problemas 'difíceis'. Sugiro para os
+  interessados o livro [[https://www.amazon.com/Algorithms-Sanjoy-Dasgupta-ebook/dp/B006Z0QR3I/][Algorithms]].
+
 - Princípio da casa dos pombos (file:pombos.pdf)
 
 - Para provar o PHP3, falamos do cálculo de sequentes
