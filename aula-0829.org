@@ -1,0 +1,23 @@
+#+Title: lógica proposicional no Lean
+#+Author: Alexandre Rademaker
+
+- Cap 5 - perguntei sobre dúvidas pendentes do capítulo. Falei
+  brevemente sobre os comentários da relação das formas CNF e NFF e as
+  regras De Morgan.
+
+- cap 6 - semântica de lógica proposicional. Função de valoração $v$ e
+  sua extensão $\overbar{v}$. Tabela verdade. Consequência lógica vs
+  dedução. soundness e completeness dos sistemas dedutivos.
+
+- Descrevi brevemente a codificação em lógica proposicional do
+  problema do caminho hamiltoniano em um grafo. Dado um grafo e um
+  caminho, mostrar que ele é hamiltoniano. A formalização em Lean
+  ficou como exercício. Alguns links na web relevantes:
+
+  - [[https://www.csie.ntu.edu.tw/~lyuu/complexity/2011/20111018.pdf][hamiltonian path in prop logic]]
+
+  outros links interessantes:
+
+  - [[https://stackoverflow.com/questions/9089327/z3-hamiltonian-graph-propositional-logic][hamiltonian graph in Z3]]
+  - [[https://cs.stackexchange.com/questions/49593/find-hamilton-cycle-in-a-directed-graph-reduced-to-sat-problem][hamiltonian cycle in DAG]]
+  - [[https://pdfs.semanticscholar.org/06bb/d1ac5d54d22be92c96189a2aeaaa6a012837.pdf][Sec 4.1.5]]
