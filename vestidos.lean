@@ -93,6 +93,5 @@ theorem solution2 : AP ∧ CB ∧ MA :=
   and.intro (ana h1 h13 h15) 
     (and.intro (claudia h1 h13 h15 h18) (maria h1 h2 h11 h12 h13 h15 h18))
 
-
 #check @solution1
 

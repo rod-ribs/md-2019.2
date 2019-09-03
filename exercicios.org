@@ -31,6 +31,9 @@ Para <2019-09-03 Tue>
 
 1. Prova em Lean do PHP3.
 2. Exercícios capítulo 5.
+3. Escolher um grafo qq, pequeno, e usando a codificação em lógica
+   proposicional, tentar provar no Lean que um dado caminho é mesmo um
+   caminho hamiltoniano no grafo.
 
 A entrega deve ser feita por email, diretamente para mim, não pela
 lista, até as 11h de <2019-09-05 Thu>. No assunto da mensagem,
@@ -42,6 +45,7 @@ O email deve conter os dois arquivos lean anexados:
 
 - PHP-FulanoBeltrano.lean
 - capitulo-05-FulanoBeltrano.lean
+- HAM-FulanoBeltrano.lean
 
 onde Fulano e Beltrano são os primeiros nomes dos componentes da
 dupla. Se o trabalho for feito individualmente, teremos apenas um
