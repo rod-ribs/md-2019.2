@@ -27,7 +27,7 @@ O email deve conter os dois arquivos lean anexados:
 
 * Lista 3
 
-Para <2019-09-03 Tue>
+Para <2019-09-09 Mon> às 10h
 
 1. Prova em Lean do PHP3.
 2. Exercícios capítulo 5.
