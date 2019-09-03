@@ -36,8 +36,7 @@ Para <2019-09-09 Mon> às 10h
    caminho hamiltoniano no grafo.
 
 A entrega deve ser feita por email, diretamente para mim, não pela
-lista, até as 11h de <2019-09-05 Thu>. No assunto da mensagem,
-colocar:
+lista. No assunto da mensagem, colocar:
 
    *MD 2019.2: lista 3*
 
