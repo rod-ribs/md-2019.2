@@ -20,7 +20,8 @@ com o vestido preto, a Cláudia com o branco e a Maria com o
 azul.  
 -/
 
-variables { AA AB AP MA MB MP CA CB CP : Prop }
+section 
+ parameters ( AA AB AP MA MB MP CA CB CP : Prop )
 
 -- cada uma veste algum vestido
 variable h1 : AA ∨ AB ∨ AP 
@@ -94,4 +95,6 @@ theorem solution2 : AP ∧ CB ∧ MA :=
     (and.intro (claudia h1 h13 h15 h18) (maria h1 h2 h11 h12 h13 h15 h18))
 
 #check @solution1
+
+end 
 
